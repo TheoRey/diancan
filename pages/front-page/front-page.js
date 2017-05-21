@@ -5,6 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
+    scan: "/images/scan.png",
+    reservation: "/images/reservation.png",
+
     restaurantList: [
         {
             "id" : "100001",

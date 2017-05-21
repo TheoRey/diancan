@@ -5,34 +5,28 @@
 
 <view class="icon-container">
     <view class="icon-text-container" bindtap="QRscan">
-        <image src="/images/scan.png" mode="aspectFit" class="icons"/>
+        <image src="{{scan}}" class="icons"/>
         <text class="icon-text">扫码</text>
     </view>
     <view class="icon-text-container">
-        <image src="/images/reservation.png" mode="aspectFit" class="icons"/>
+        <image src="{{reservation}}" class="icons"/>
         <text class="icon-text">预定</text>
     </view>
 </view>
 
 <view class="arounds">
-    <view class="arounds-intro">
-        <text class="arounds-text">附近的餐馆</text>
-    </view>
+    <view class="arounds-intro">附近的餐馆</view>
     <block wx:for="{{restaurantList}}" wx:key="restaurantListKey">
-        <navigator url="url" class="restaurant-container" hover-class="navigator-hover">
+        <navigator url="../restaurantDetail/restaurantDetail" class="restaurant-container" hover-class="navigator-hover">
             <view class="restaurant-img-name-container">
-                <view class="restaurant-img-container">
-                    <image src="{{item.avatarImg}}" mode="widthFill" class="restaurant-img" />
-                </view>
+                <image src="{{item.avatarImg}}" class="restaurant-img" />
                 <text class="restaurant-name">{{item.name}}</text>
             </view>
             <view class="score-distance-container">
                 <text class="restaurant-score">{{item.score}}</text>
                 <text class="restaurant-distance">{{item.distance}}</text>
             </view>
-            <view class="restaurant-genre-container">
-                <text class="restaurant-genre">{{item.genre}}</text>
-            </view>
+            <text class="restaurant-genre">{{item.genre}}</text>
         </navigator>
     </block>
 </view>

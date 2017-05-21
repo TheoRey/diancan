@@ -1,0 +1,15 @@
+<!--pages/restaurantDetail/restaurantDetail.wxml-->
+<view class="restaurant-intro">
+        <image src="{{restaurant.avatarImg}}" mode="aspectFill" class="avatar-img" />
+        <text class="name">{{restaurant.name}}</text>
+</view>
+
+<block wx:for="{{cusineList}}" wx:key="cusineListKey">
+    <view class="cusine-container">
+        <image src="{{item.pic}}" class="cusine-pic" />
+        <view class="cusine-name-price-container">
+            <text class="cusine-name">{{item.name}}</text>
+            <text class="cusine-price">{{item.price}}</text>
+        </view>
+    </view>
+</block>

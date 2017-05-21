@@ -1,0 +1,52 @@
+/* pages/restaurantDetail/restaurantDetail.wxss */
+page{
+    height: 100%;
+}
+
+.restaurant-intro{
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    background: #8B0A50;
+}
+
+.avatar-img{
+    width: 180rpx;
+    height: 180rpx;
+    margin: 20px;
+}
+
+.name{
+    font-size: 35rpx;
+    color: #fff;
+}
+
+.cusine-container{
+    display: flex;
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.cusine-pic{
+    width: 180rpx;
+    height: 180rpx;
+    padding: 15rpx;
+}
+
+.cusine-name-price-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cusine-name{
+    padding: 8rpx;
+    font-size: 36rpx;
+}
+
+.cusine-price{
+    color: #f10214;
+}
