@@ -1,0 +1,22 @@
+{
+    "pages": [
+        "pages/front-page/front-page"
+    ],
+
+    "window": {
+        "navigationBarTitleText": "Foods",
+        "navigationBarBackgroundColor": "#8B0A50",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#8B0A50",
+        "backgroundTextStyle": "light"
+    },
+
+    "debug": true,
+
+   "networkTimeout": {
+      "request": 200,
+      "connectSocket":2000,
+      "uploadFile": 2000,
+      "downloadFile": 2000
+    }
+}
