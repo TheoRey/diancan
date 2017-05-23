@@ -6,7 +6,7 @@ Page({
    */
   data: {
     scan: "/images/scan.png",
-    reservation: "/images/reservation.png",
+    reservation: "/images/activity.png",
 
     restaurantList: [
         {
@@ -50,5 +50,11 @@ Page({
             console.log(res)
         }
     })
+  },
+
+  toActivityPage: function() {
+      wx.navigateTo({
+          url: '../activities/activities',
+      })
   }
 })

@@ -1,0 +1,8 @@
+<!--pages/activities/activities.wxml-->
+
+<block wx:for="{{activities}}" wx:key="activityKey">
+    <view class="activity-container">
+        <image src="{{item.activityImg}}" mode="aspectFill" class="activity-img" bindtap="toRestaurantPage"/>
+        <text class="activity-text">{{item.activityName}}</text>
+    </view>
+</block>

@@ -9,8 +9,8 @@
         <text class="icon-text">扫码</text>
     </view>
     <view class="icon-text-container">
-        <image src="{{reservation}}" class="icons"/>
-        <text class="icon-text">预定</text>
+        <image src="{{reservation}}" class="icons" bindtap="toActivityPage"/>
+        <text class="icon-text">活动</text>
     </view>
 </view>
 

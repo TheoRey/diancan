@@ -1,7 +1,9 @@
 {
     "pages": [
         "pages/front-page/front-page",
-        "pages/restaurantDetail/restaurantDetail"
+        "pages/restaurantDetail/restaurantDetail",
+        "pages/activities/activities",
+        "pages/restaurantList/restaurantList"
     ],
 
     "window": {
