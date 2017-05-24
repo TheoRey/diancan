@@ -12,19 +12,19 @@ Page({
         {
             "id" : "100001",
             "name": "沸腾鱼乡",
-            "avatarImg": "http://static.boredpanda.com/blog/wp-content/uploads/2016/04/ginger-cat-adopts-mini-me-evin-minnie-23.jpg",
-            "distance": "120km",
+            "avatarImg": "http://www.3vsheji.com/uploads/allimg/140612/1115136121_1.jpg",
+            "distance": "10km",
             "score": "4.7",
-            "genre": "粤",
+            "genre": "清蒸石斑鱼、鼎湖上素、烟筒白菜",
         },
 
         {
             "id" : "100002",
-            "name": "Tan Yu Tou Spicy Hotpot in San Gabriel",
-            "avatarImg": "https://static.independent.co.uk/s3fs-public/styles/story_large/public/thumbnails/image/2016/03/30/19/cat.jpg",
-            "distance": "99km",
+            "name": "红龙川菜馆",
+            "avatarImg": "http://www.tangrenjv.com/upload/images/news/newsPhoto26/0bc3bfbf270448bbb30b215788c26c05.jpg",
+            "distance": "9km",
             "score": "4.8",
-            "genre": "川",
+            "genre": "宫保鸡丁、干烧鱼、回锅肉、麻婆豆腐",
         },
     ]
   },

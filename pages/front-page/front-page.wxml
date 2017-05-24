@@ -1,6 +1,6 @@
 <!--pages/front-page/front-page.wxml-->
 <view class="search-container">
-    <input class="search" type="text" placeholder="搜索" />
+    <input class="search" type="text" placeholder="想吃什么" />
 </view>
 
 <view class="icon-container">
@@ -19,7 +19,7 @@
     <block wx:for="{{restaurantList}}" wx:key="restaurantListKey">
         <navigator url="../restaurantDetail/restaurantDetail" class="restaurant-container" hover-class="navigator-hover">
             <view class="restaurant-img-name-container">
-                <image src="{{item.avatarImg}}" class="restaurant-img" />
+                <image src="{{item.avatarImg}}" class="restaurant-img" mode="aspectFill"/>
                 <text class="restaurant-name">{{item.name}}</text>
             </view>
             <view class="score-distance-container">

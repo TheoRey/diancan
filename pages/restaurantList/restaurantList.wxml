@@ -1,2 +1,21 @@
 <!--pages/restaurantList/restaurantList.wxml-->
-<text>pages/restaurantList/restaurantList.wxml</text>
+<view class="activity-container">
+    <text class="activity-name">{{name}}</text>
+    <text class="activity-description">{{description}}</text>
+</view>
+
+
+<view class="intro">参与的餐馆</view>
+<block wx:for="{{restaurantList}}" wx:key="restaurantListKey">
+    <navigator url="../restaurantDetail/restaurantDetail" class="restaurant-container" hover-class="navigator-hover">
+        <view class="restaurant-img-name-container">
+            <image src="{{item.avatarImg}}" class="restaurant-img" />
+            <text class="restaurant-name">{{item.name}}</text>
+        </view>
+        <view class="score-distance-container">
+            <text class="restaurant-score">{{item.score}}</text>
+            <text class="restaurant-distance">{{item.distance}}</text>
+        </view>
+        <text class="restaurant-genre">{{item.genre}}</text>
+    </navigator>
+</block>

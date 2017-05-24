@@ -1,1 +1,16 @@
 /* pages/restaurantList/restaurantList.wxss */
+.activity-container{
+    height: 35%;
+    background: #8B0A50;
+    color: #fff;
+    padding: 125rpx;
+    font-weight: bold;
+    line-height: 1.7
+}
+
+.intro{
+    background: #fff;
+    padding: 15rpx;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: 32rpx;
+}

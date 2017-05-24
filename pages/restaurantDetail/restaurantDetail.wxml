@@ -6,7 +6,7 @@
 
 <block wx:for="{{cusineList}}" wx:key="cusineListKey">
     <view class="cusine-container">
-        <image src="{{item.pic}}" class="cusine-pic" />
+        <image src="{{item.pic}}" class="cusine-pic" mode="aspectFill"/>
         <view class="cusine-name-price-container">
             <text class="cusine-name">{{item.name}}</text>
             <text class="cusine-price">{{item.price}}</text>
