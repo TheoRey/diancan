@@ -49,21 +49,27 @@ page{
     background: #8B0A50;
 }
 
-.score-distance-container{
+/*.score-distance-container{
     display: flex;
     justify-content: space-between;
     margin: 0 25rpx;
     padding: 15rpx 0;
     border-bottom: 1px solid #F2F2F2;
     font-size: 35rpx;
-}
+}*/
 
 .restaurant-score{
-    color: #f10214;
+    bottom: 30rpx;
+    left: 145rpx;
+    background: #f10214;
+    color: #fff;
 }
 
 .restaurant-distance{
-    color: #BABABA;
+    bottom: 30rpx;
+    right: 20rpx;
+    background: #BABABA;
+    color: #fff;
 }
 
 .restaurant-genre{

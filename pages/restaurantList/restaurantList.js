@@ -14,7 +14,7 @@ Page({
               "name": "沸腾鱼乡",
               "avatarImg": "http://www.3vsheji.com/uploads/allimg/140612/1115136121_1.jpg",
               "distance": "12km",
-              "score": "4.7",
+              "score": "4.9分",
               "genre": "清蒸石斑鱼、鼎湖上素、烟筒白菜",
               "capacity": "有余位",
               "reservationBool": "可预订",
