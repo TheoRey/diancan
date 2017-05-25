@@ -16,6 +16,8 @@ Page({
               "distance": "12km",
               "score": "4.7",
               "genre": "清蒸石斑鱼、鼎湖上素、烟筒白菜",
+              "capacity": "有余位",
+              "reservationBool": "可预订",
           },
       ]
 

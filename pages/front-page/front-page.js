@@ -16,6 +16,8 @@ Page({
             "distance": "10km",
             "score": "4.7",
             "genre": "清蒸石斑鱼、鼎湖上素、烟筒白菜",
+            "capacity": "有余位",
+            "reservationBool": "可预订",
         },
 
         {
@@ -25,6 +27,8 @@ Page({
             "distance": "9km",
             "score": "4.8",
             "genre": "宫保鸡丁、干烧鱼、回锅肉、麻婆豆腐",
+            "capacity": "有余位",
+            "reservationBool": "",
         },
     ]
   },

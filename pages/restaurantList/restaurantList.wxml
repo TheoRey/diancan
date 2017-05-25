@@ -11,6 +11,8 @@
         <view class="restaurant-img-name-container">
             <image src="{{item.avatarImg}}" class="restaurant-img" />
             <text class="restaurant-name">{{item.name}}</text>
+            <text class="info reservation-text">{{item.reservationBool}}</text>
+            <text class="info restaurant-capacity">{{item.capacity}}</text>
         </view>
         <view class="score-distance-container">
             <text class="restaurant-score">{{item.score}}</text>

@@ -7,29 +7,46 @@ page{
     width: auto;
     margin-bottom: 16rpx;
     background: #fff;
-    padding: 10rpx;
 }
 
 .restaurant-img-name-container{
-    display: flex;
-    align-items: center;
+    position: relative;
+    /*align-items: center;
     flex-direction: column;
-    text-align: center;
+    text-align: center;*/
 }
 
 .restaurant-img{
-    display: block;
-    width: 180rpx;
-    height: 180rpx;
-    padding: 15rpx;
+    display: flex;
+    width: auto;
 }
 
 .restaurant-name{
-    display: block;
-    padding: 5rpx;
-    font-size: 35rpx;
-    font-weight: bold;
-    color: #8B0A50;
+    position: absolute;
+    padding: 25rpx;
+    font-size: 37rpx;
+    color: #fff;
+    bottom: 70rpx;
+}
+
+.info{
+    position: absolute;
+    color: #fff;
+    padding: 8rpx;
+    border-radius: 4px;
+    font-size: 30rpx;
+}
+
+.restaurant-capacity{
+    bottom: 30rpx;
+    background: #228B22;
+    margin: 0 25rpx;
+}
+
+.reservation-text{
+    top: 20rpx;
+    right: 20rpx;
+    background: #8B0A50;
 }
 
 .score-distance-container{
